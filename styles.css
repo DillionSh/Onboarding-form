@@ -1,0 +1,110 @@
+body {
+
+    background: linear-gradient(to right, #4aa7ea, #fd94ec);
+
+
+}
+
+
+
+form {
+    background-color: rgba(255, 255, 255, 0.6);  /* Light background for the form itself */
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow for some depth */
+
+}
+
+.bg-primary {
+            background-color: #8305ba !important;
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+            font-size: 20px;
+
+            }
+
+.bg-secondary {
+            background-color: #fc9304 !important;
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+
+            font-size: 20px;
+
+
+
+            }
+
+.custom-multi-select {
+      display: flex;
+       flex-wrap: wrap;
+
+       height: 170px;
+
+      flex-direction: column;
+      column-count: 2;
+      column-gap: 20px;
+      margin: 10px 0;
+
+
+
+    }
+
+
+
+    .custom-multi-select label {
+      display: flex;
+
+      padding: 5px 0;
+      cursor: pointer;
+    }
+
+    .custom-multi-select input[type="checkbox"] {
+      margin-right: 10px;
+
+
+
+    }
+
+.form-group_checkboxes{
+     display: flex;
+     flex-wrap: wrap;
+     text-align:center;
+     justify-content:center;
+
+
+
+}
+
+
+
+
+.form-control {
+    width:200px;
+    margin: 0 auto;
+}
+
+.form-group{
+    text-align:center;
+    padding: 5px;
+
+    }
+
+
+.title{
+    color:purple;
+    text-align: center;
+}
+
+.checkbox-size{
+    width:20px;
+    height:20px;
+
+}
+
+.modal-header{
+    background-color: #fd7869;
+
+}
